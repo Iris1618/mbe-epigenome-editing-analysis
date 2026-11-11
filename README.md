@@ -4,7 +4,7 @@ This repository contains two exploratory R analyses comparing EvoETR-8 and ZFP-E
 
 ## Paper
 
-Cappelluti, M. A. et al. [Durable and efficient gene silencing in vivo by hit-and-run epigenome editing](https://doi.org/10.1038/s41586-024-07087-8). *Nature* **627**, 416–423 (2024).
+Cappelluti, M. A. et al. [Durable and efficient gene silencing in vivo by hit-and-run epigenome editing](https://doi.org/10.1038/s41586-024-07087-8). *Nature* **627**, 416-423 (2024).
 
 The study asked whether transient delivery of engineered transcriptional repressors could durably silence *Pcsk9* in mouse liver. The authors reported sustained suppression of circulating PCSK9 after a single dose and observed that suppression and promoter methylation persisted after liver regeneration. They also developed EvoETR-8, an all-in-one editor, and compared it with the original ZFP-ETR combination.
 
@@ -16,7 +16,7 @@ The study asked whether transient delivery of engineered transcriptional repress
 
 We extracted the day 43 plasma PCSK9 values from the published workbook. The values were already normalized to vehicle, so we multiplied them by 100 to express them as percentages. We used a two-sided, unpaired Welch t-test and subtracted the EvoETR-8 mean from the ZFP-ETR mean. A positive difference represents additional PCSK9 suppression with EvoETR-8.
 
-**Result.** EvoETR-8 produced an estimated **21.4 percentage points** of additional suppression (95% CI 2.1–40.8, unadjusted p = 0.036). The interval treats the shared vehicle denominator as fixed.
+**Result.** EvoETR-8 produced an estimated **21.4 percentage points** of additional suppression (95% CI 2.1-40.8, unadjusted p = 0.036). The interval treats the shared vehicle denominator as fixed.
 
 ### Day 1 plasma ALT
 
